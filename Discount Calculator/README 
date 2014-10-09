@@ -1,0 +1,60 @@
+README
+
+Created by David Pedroza on 9/16/14
+Email: Krazydave65@csu.fullerton.edu
+
+Project 2: Discount Calculator
+==================================================================
+
+Files:	
+	Main.storyboard
+	MainViewController.h
+	MainViewController.m
+	GraphViewController.h
+	GraphViewController.m
+	discountCalc.h
+	discountCalc.m
+
+
+Description: 
+==================================================================
+Main.storyboard: 
+	This is the view of the application 
+
+MainViewController.h: 
+	This MainViewController.h file declares all the variables, IBAction functions and properties.
+
+MainViewController.m: 
+	This ViewController.m file connects all the IBActions and Outlets to the STORYBOARD. This controller accesses the Model, and receives the calculated discount.
+
+GraphViewController.h: 
+	This is the graphical view of the calculation… this file declares all the discounted variables. This view is responsible for the graphical view of calculations. 
+
+GraphViewController.m: 
+	This is the graphical view of the calculation… this file initializes the view with values.
+
+discountCalc.h: 
+	This is the declaration for calculating the values for the discount.
+
+discountCalc.m:
+	This is the implementation for calculating the values for the discount.
+
+
+==================================================================
+
+
+How to use:
+	This application is to find the discounted price of a purchase. The user can enter values for the price, percent discount, dollars off, and of discounts. Once the user has entered in all the discounts, the calculated button may be pressed. Once the button is pressed, the original and discounted prices will be displayed. The user can also view the final discounted prices by swiping left.
+
+	
+
+
+
+
+
+
+
+
+
+
+
